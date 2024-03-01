@@ -11,6 +11,7 @@ import movie10 from "../assets/movie10.png";
 import movie11 from "../assets/movie11.png";
 import movie12 from "../assets/movie12.png";
 
+
 const moviesData = [
   {
     id: 1,
@@ -38,63 +39,63 @@ const moviesData = [
     title: "Nancy Drew",
     image: movie4,
     year: 2023,
-    duration: "104 min",
+    duration: "104min",
   },
   {
     id: 5,
     title: "The Cube",
     image: movie5,
     year: 2023,
-    duration: "104 min",
+    duration: "104min",
   },
   {
     id: 6,
     title: "Tyler Perry's Sisters",
     image: movie6,
     year: 2023,
-    duration: "90 min",
+    duration: "90min",
   },
   {
     id: 7,
     title: "Spider-Man Across",
     image: movie7,
     year: 2023,
-    duration: "120 min",
+    duration: "120min",
   },
   {
     id: 8,
     title: "John Wick",
     image: movie8,
     year: 2015,
-    duration: "130 min",
+    duration: "130min",
   },
   {
     id: 9,
     title: "Medellin",
     image: movie9,
     year: 2020,
-    duration: "150 min",
+    duration: "150min",
   },
   {
     id: 10,
     title: "Sistas",
     image: movie10,
     year: 2019,
-    duration: "80 min",
+    duration: "80min",
   },
   {
     id: 11,
     title: "Shazam",
     image: movie11,
     year: 2017,
-    duration: "140 min",
+    duration: "140min",
   },
   {
     id: 12,
     title: "Medellin",
     image: movie12,
     year: 2000,
-    duration: "150 min",
+    duration: "150min",
   },
 ];
 
