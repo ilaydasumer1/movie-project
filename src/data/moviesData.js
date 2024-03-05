@@ -11,7 +11,6 @@ import movie10 from "../assets/movie10.png";
 import movie11 from "../assets/movie11.png";
 import movie12 from "../assets/movie12.png";
 
-
 const moviesData = [
   {
     id: 1,

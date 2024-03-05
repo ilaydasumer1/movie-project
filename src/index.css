@@ -1,11 +1,12 @@
 body {
     margin: 0px 0px !important;
-    padding: 0px 0px !important;
     background-color:black !important;
 }
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 //Header.jsx:
 .header-container {
     justify-content: center;
@@ -114,17 +115,33 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
+    width: 80% !important;
+    background-color: red;
 }
 .trending-content{
+    padding: 40px 100px;
+    padding-bottom:0px !important;
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap:10px;
+    width: 85%;
 }
+.trending-list {
+    row-gap: 50px;
+    color: white !important;
+    padding: 0px 100px !important;
+    justify-content:center !important;
+    align-items:center !important;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Altı sütun */
+    grid-auto-rows: auto; /* Otomatik satır yüksekliği */
+    width:85%;
+  }
 .trending-content-text-1{
     color:white;
-    font-size:25px;
+    font-size:20px;
     font-weight:bold;
     font-family: "Roboto Mono", monospace;
 }
@@ -135,30 +152,82 @@ body {
 .trending-content hr{
     height: 0.3px;
     width: 100%;
-
+}
+//Footer.jsx:
+.footer-content{
+    color:white;
+}
+.footer-content h2{
+    font-size:30px;
+}
+.footer-content p{
+    font-size:18px;
+}
+.footer-content-2{
+    color:white ;
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+.footer-content-2 ul{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-content-2 li{
+    list-style-type: none;
+    font-size:18px;
+}
+.footer-content{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-content h2{
+    margin:0px;
+}
+.footer-container{
+    padding:200px 0px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:200px;
+    align-items: center;
+}
+.footer-icon{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
 }
 
-.movie-container{
+  //Cart.jsx:
+  .movie-container{
     display:flex;
     flex-direction:column;
     justify-content: center;
     color:white;
 }
+.movie-inf{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+.movie-title h5{
+    margin: 0px 0px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
 .movie-text{
     display:flex;
-    flex-direction: row;
-    
+    flex-direction: row;  
+    gap: 15px;
 }
-.trending-list {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Altı sütun */
-    grid-auto-rows: auto; /* Otomatik satır yüksekliği */
-    gap: 2px; /* Kartlar arası boşluk */
-  }
-  
-  //Cart.jsx:
-.movie-text p{
-    margin:0px 0px;
-    padding:0px 0px;
+.movie-text h5{
+    margin: 0px 0px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal; 
 }
-  
+

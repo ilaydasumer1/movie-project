@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-const Cart = ({
+const Cart2 = ({
   movie: { title, image, year, duration }, // props olarak movie alınacak
 }) => {
   return (
@@ -21,6 +21,4 @@ const Cart = ({
   );
 };
 
-export default Cart
-
-
+export default Cart2;
